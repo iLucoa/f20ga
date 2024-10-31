@@ -1,5 +1,7 @@
 # Animation Process
 
+Animation Video Link - https://heriotwatt-my.sharepoint.com/:v:/g/personal/abb2001_hw_ac_uk/EYLRijMdnoBMoPcwKLwyvqABy4Ixpe0AlFYoAvtdz3L9Mw
+
 ## Import Process
 
 All three objects being made are then exported using a .fbx file, we export the selected object only (without the scene setup). Afterwards, when we open Unreal Engine and use a blank Video project, we import the object to the application and place the object in the world.
