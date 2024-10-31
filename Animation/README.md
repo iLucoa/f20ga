@@ -17,3 +17,7 @@ Pikachu was imported successfully without any issues.
 ### Voltorb
 
 When we imported Voltorb, the only issue we received is the missing material colour from it as Voltorb is all white. The issue is simple as we saved the texture paint of Voltorb to a PNG. Afterwards, we simply import it to Unreal Engine and drag and drop to Voltorb.
+
+## Animation Creation
+
+To create the animation, we used Sequencer and a Cine Camera Actor, we've set Pikachu to stay still the whole video but we make Snorlax roll to the camera. Afterwards, we've made Voltorb float to the camera and afterwards face the camera.
