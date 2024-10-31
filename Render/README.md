@@ -27,10 +27,16 @@ I will split these between what colour I have used or different techniques.
 
 **Feet** - I have set the colour to RGB (241,229,215) to have a beige colour.
 
-**Toes and Fingers** - I have set the colour to white to have a slight contrast to the color of the feet.
+**Toes and Fingers** - I have set the colour to white to have a slight contrast to the colour of the feet.
+
+### Scene Setup
+
+As for the setup, I have used 3 lights (Key Lights, Back Lights and  Fill Light) and have an image background resulting in the image of snorlax.png. The image can be looked up through the reference.
 
 ### References
 Dimensions. (n.d.). Snorlax Dimensions & Drawings. Available at: https://www.dimensions.com/element/snorlax (Accessed: 31 October 2024).
+*Pokemon Legends: Arceus Backgrounds Free* (2022) Available at: https://www.deviantart.com/bea-boo/art/Pokemon-Legends-Arceus-Backgrounds-Free-908940483 
+(Accessed 31 October 2024).
 
 ## Pikachu (Syeshan)
 
