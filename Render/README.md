@@ -41,3 +41,22 @@ Dimensions. (n.d.). Snorlax Dimensions & Drawings. Available at: https://www.dim
 ## Pikachu (Syeshan)
 
 ## Voltorb (Zhi Qin)
+
+### Modelling
+The only shape that is used during the modelling process of Voltorb us a UV Sphere and an image from google is used as a reference of how the model should look like.
+
+**Body Parts** - I have started the modelling with a uv sphere as Voltorb's body, and since it is round in shape, applying subdivision is not really necessary. After that, I've enabled mesh symmetry in the X-axis to keep the eyes symmetrical when I model it by extruding and grabbing the edge and vetices of the sphere. When that is done, i crease the body line and further sculpt the eyes to make it look like the reference image. Voltorb does not have any arms, feet or mouth.
+
+### Materials
+
+An add-ons extension from blender called **Ucupaint** is used to paint and adding different layers of colour and texture to the model.
+
+Because of its body shape which is only a sphere, it is easier to use ucupaint to apply different layers of texture and colour to it. The body is set to look a little metallic, combining roughness to it which make Voltorb's body texture looks matte. Afterwards, I used texture paint to apply colours to the model. The upper part of the body the paint with red and lower body is light gray, with a black divider in the middle. The eyes is then paint as well according to how the reference image look like. 
+
+
+### Scene Setup
+
+For the scene setup, I have used 3 lights (Key Lights, Back Lights and  Fill Light) and have an added a plane as the background instead of using a background image to highlight the shadows of the model.
+
+### References
+Pokémon GO Database. (n.d.). Voltorb image. Available at: https://db.pokemongohub.net/pokemon/100 (Accessed: 31 October 2024).
