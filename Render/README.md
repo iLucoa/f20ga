@@ -51,7 +51,7 @@ The only shape that is used during the modelling process of Voltorb us a UV Sphe
 
 An add-ons extension from blender called **Ucupaint** is used to paint and adding different layers of colour and texture to the model.
 
-Because of its body shape which is only a sphere, it is easier to use ucupaint to apply different layers of texture and colour to it. The body is set to look a little metallic, combining roughness to it which make Voltorb's body texture looks matte. Afterwards, I used texture paint to apply colours to the model. The upper part of the body the paint with red and lower body is light gray, with a black divider in the middle. The eyes is then paint as well according to how the reference image look like. 
+Because of its body shape which is only a sphere, it is easier to use ucupaint to apply different layers of texture and colour to it. The body is set to look a little metallic, combining roughness to it which make Voltorb's body texture looks matte. Afterwards, I used texture paint to apply colours to the model. The upper part of the body the paint with red and lower body is light gray, with a black divider in the middle. The eyes is then paint as well according to how the reference image look like. Finally, the model is then denoised for rendering.
 
 
 ### Scene Setup
