@@ -45,6 +45,13 @@ Multiple shapes were used to make this Pikachu model and each shape having to re
 
 **Head, Body and Ears** - For the head, body and ears I used a UV sphere with a subdivision surface modifier to smoothen the surface of the head, body and ears. I started off by modelling the head then I stretched out the sides of the head to make the ears. Afterwards, I stretched the bottom of the head to then expand it and make the body.
 
+**Nose and Eyes** - As of for outer eyes I used a UV sphere as well and applied a mirror modifier to make the other eye. I did the same thing for the nose but this time I adjusted and joined the the two spheres to make it look like the nose. Finally for the inner eyes I did the same thing as well but this time I just changed the colour to white and the size of it is a bit smaller and then I combined it to the outer eye.
+
+**Legs and Hands** - For the legs I used a UV sphere and applied the mirror modifier and adjusted the shape to make it look for like a leg. I did the same thing for the hands but this time I modelled the shape to make it look like a hand
+
+
+
+
 ## Voltorb (Zhi Qin)
 
 ### Modelling
