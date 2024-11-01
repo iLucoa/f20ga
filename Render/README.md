@@ -49,10 +49,13 @@ Multiple shapes were used to make this Pikachu model and each shape having to re
 
 **Legs and Hands** - For the legs I used a UV sphere and applied the mirror modifier and adjusted the shape to make it look for like a leg. I did the same thing for the hands but this time I modelled the shape to make it look like a hand.
 
-**Mouth** - 
+**Mouth** - I removed faces below the nose to make the shape of the mouth. Then I adjusted the missing face by pulling the corners of the missing faces to then make the shape of the mouth.
 
 **Tail** - For the tail I used a cube which I made it to a thin rectangle. Then i added vertices and cut of the vertices to make it look like a stairs. Finally, I modeled the shape by adjusting the vertexes to give it the shape of the tail.
 
+### Materials
+
+**Head, body, legs, ears and hands** - 
 
 
 
