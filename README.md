@@ -3,6 +3,6 @@ This is the F20GA Assignment with Adam, Syeshan and Zhi Qin. Our main theme of t
 
 As for context on what Pokemon we're doing:
 
-Adam: Snorlax
-Zhi Qin: Voltorb
+Adam: Snorlax <br />
+Zhi Qin: Voltorb <br />
 Syeshan: Pikachu
