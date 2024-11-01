@@ -1,5 +1,6 @@
 # Rendering Process
-
+**5 minute explaination video**
+https://heriotwatt-my.sharepoint.com/:v:/g/personal/sab2004_hw_ac_uk/EfUzo1zpRchLrL0i5C3a-eYBWXGEuMpsLOjm4HPjaCxz3Q
 ## Snorlax (Adam)
 
 ### Modelling
@@ -41,11 +42,11 @@ Dimensions. (n.d.). Snorlax Dimensions & Drawings. Available at: https://www.dim
 ## Pikachu (Syeshan)
 
 ### Modelling
-Multiple shapes were used to make this Pikachu model and each shape having to represent different body parts of the. I've used a Pikachu reference image from Google so that it is easier for me to model Pikachu.
+Multiple shapes were used to make this Pikachu model and each shape having to represent different body parts of the model. I've used a Pikachu reference image from Google so that it is easier for me to model Pikachu. All of the used the subdivision surface modifier to smoothen the surface of the entire model.
 
 **Head, Body and Ears** - For the head, body and ears I used a UV sphere with a subdivision surface modifier to smoothen the surface of the head, body and ears. I started off by modelling the head then I stretched out the sides of the head to make the ears. Afterwards, I stretched the bottom of the head to then expand it and make the body.
 
-**Nose and Eyes** - As of for outer eyes I used a UV sphere as well and applied a mirror modifier to make the other eye. I did the same thing for the nose but this time I adjusted and joined the the two spheres to make it look like the nose. Finally for the inner eyes I did the same thing as well but this time I just changed the colour to white and the size of it is a bit smaller and then I combined it to the outer eye.
+**Nose, Eyes and Cheeks** - As of for outer eyes I used a UV sphere as well and applied a mirror modifier to make the other eye. I did the same thing for the nose but this time I adjusted and joined the the two spheres to make it look like the nose. For the cheeks, I used a UV sphere with a modifier but as for this I adjusted it to the side of the head and changed the colour to red. Finally for the inner eyes I did the same thing as well but this time I just changed the colour to white and the size of it is a bit smaller and then I combined it to the outer eye.
 
 **Legs and Hands** - For the legs I used a UV sphere and applied the mirror modifier and adjusted the shape to make it look for like a leg. I did the same thing for the hands but this time I modelled the shape to make it look like a hand.
 
@@ -55,7 +56,21 @@ Multiple shapes were used to make this Pikachu model and each shape having to re
 
 ### Materials
 
-**Head, body, legs, ears and hands** - 
+**Head, body, legs, ears, hands and tail** - The hex colour code used for those body parts were #E7CD00 (Yellow)
+
+**Cheeks** - The hex colour code used for the cheeks were #E7000E (Red)
+
+**Inner eye** - The hex colour code used for the cheeks were #E7E7E7 (White)
+
+**Outer eye and nose** - The hex colour code used for the  #000000 (Black)
+
+### Scene Setup
+
+For the setup, I have used 2 lights which are a point light and an area light to brighten up my model. The result which is the image rendered is pikachu.png is provided in this directory.
+
+### References
+Joelgroves. (n.d.). Design Sketches – Reference Images. Available at: https://www.dimensions.com/element/snorlax](https://joelgroves1112it1.wordpress.com/design-sketches-reference-images/ (Accessed: 31 October 2024).
+Reddit (2022). Pokemon & Sonic crossover: Ash meets Sonic. Available at: https://www.reddit.com/r/SonicTheHedgehog/comments/1cotts6/pokemon_sonic_crossover_ash_meets_sonic/?rdt=37397 (Accessed 31 October 2024).
 
 
 
