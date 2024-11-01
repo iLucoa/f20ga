@@ -47,7 +47,11 @@ Multiple shapes were used to make this Pikachu model and each shape having to re
 
 **Nose and Eyes** - As of for outer eyes I used a UV sphere as well and applied a mirror modifier to make the other eye. I did the same thing for the nose but this time I adjusted and joined the the two spheres to make it look like the nose. Finally for the inner eyes I did the same thing as well but this time I just changed the colour to white and the size of it is a bit smaller and then I combined it to the outer eye.
 
-**Legs and Hands** - For the legs I used a UV sphere and applied the mirror modifier and adjusted the shape to make it look for like a leg. I did the same thing for the hands but this time I modelled the shape to make it look like a hand
+**Legs and Hands** - For the legs I used a UV sphere and applied the mirror modifier and adjusted the shape to make it look for like a leg. I did the same thing for the hands but this time I modelled the shape to make it look like a hand.
+
+**Mouth** - 
+
+**Tail** - For the tail I used a cube which I made it to a thin rectangle. Then i added vertices and cut of the vertices to make it look like a stairs. Finally, I modeled the shape by adjusting the vertexes to give it the shape of the tail.
 
 
 
