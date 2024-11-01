@@ -40,6 +40,9 @@ Dimensions. (n.d.). Snorlax Dimensions & Drawings. Available at: https://www.dim
 
 ## Pikachu (Syeshan)
 
+### Modelling
+Multiple shapes were used to make this Pikachu model and each shape having to represent different body parts of the. I've used a Pikachu reference image from Google so that it is easier for me to model Pikachu.
+
 ## Voltorb (Zhi Qin)
 
 ### Modelling
