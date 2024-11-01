@@ -43,6 +43,8 @@ Dimensions. (n.d.). Snorlax Dimensions & Drawings. Available at: https://www.dim
 ### Modelling
 Multiple shapes were used to make this Pikachu model and each shape having to represent different body parts of the. I've used a Pikachu reference image from Google so that it is easier for me to model Pikachu.
 
+**Head, Body and Ears** - For the head, body and ears I used a UV sphere with a subdivision surface modifier to smoothen the surface of the head, body and ears. I started off by modelling the head then I stretched out the sides of the head to make the ears. Afterwards, I stretched the bottom of the head to then expand it and make the body.
+
 ## Voltorb (Zhi Qin)
 
 ### Modelling
