@@ -28,3 +28,6 @@ Use the Arrow Keys to move the camera (Up being Forward or Zoom in, Down being B
 
 ### Buttons
 There will be 2 buttons at the bottom of the page being < and > that are going to Previous Page and Next Page respectively. These buttons are used to navigate through different Pokemon objects
+
+## How the scene was built
+Pokemon logo image was added, referenced in the code, which is added on the header. Two arrows left and right were added at the footer which indicates to show the next Pokemon.The headers and footers were coloured red and the buttons was blue but once hovered over it is yellow. The whole idea of this was to have a Pokemon game kind of theme which fits the theme of our Pokemon models
