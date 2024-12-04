@@ -6,6 +6,9 @@ https://heriotwatt-my.sharepoint.com/:v:/g/personal/abb2001_hw_ac_uk/Ead-pdiCxox
 Application & Interaction video (Roughly 3 minutes)
 https://heriotwatt-my.sharepoint.com/:v:/g/personal/abb2001_hw_ac_uk/EaSZqi3Ae7lIiX2iyfso7W4BWkW0GA6QluNy7sINzX4mRQ
 
+## Importing Models
+First, a load function is used to fetch the 3D model file, storing the raw data in the file variable. Next, it fetches the associated texture image via an HTTP request and converts the response into a Blob object, which is a representation of binary data. The Blob is then transformed into an ImageBitmap using the createImageBitmap function. Finally, the raw OBJ file data is parsed with a parse function to generate a structured 3D model representation (parsedObj), ready to be displayed in a 3D scene, likely with the texture applied for visual realism. This sequence is typical in 3D applications for loading and displaying textured models.
+
 ## Lights and Shaders
 The three objects in this projects uses 2 lightings, one shining at the front and one at the back. By tweaking and experimenting on the lights and shaders settings resulted in the final look of the objects
 
