@@ -12,7 +12,7 @@ struct Light{
     id : vec4f,
     is : vec4f,
     shin : vec4f,
-    lightPosition: vec4f,
+    lightPositions: array<vec4f, 2>,
 }
 
 @group(0) @binding(3) var sam : sampler;
@@ -38,25 +38,34 @@ struct Light{
     // vectors
     let normal = normalize(fsInput.normal.xyz);
     let position = fsInput.fragPos.xyz;
-    let lightPosition = light.lightPosition.xyz;
 
-    // Ambient
-    let ambient = ka * ia;
+    // Initialize final lighting contribution
+    var ambient = vec3f(0.0);
+    var diffuse = vec3f(0.0);
+    var specular = vec3f(0.0);
 
-    // Diffuse
-    let lightDir = normalize(lightPosition - position);
-    let lightMagnitude = dot(normal, lightDir);
-    let diff = max(lightMagnitude, 0);
-    let diffuse = kd * id * diff;
-  
-    // Specular
-    let viewDir = normalize(fsInput.viewPos.xyz - position);
-    let reflectDir = reflect(-lightDir, normal);  
-    let spec = pow(max(dot(viewDir, reflectDir), 0.0), shininess);
-    let specular = ks * is * spec;
+    // Iterate over all lights
+    for (var i = 0u; i < 2u; i = i + 1u) {
+        let lightPosition = light.lightPositions[i].xyz;
 
-    // Full Phong light calculation
-    var output = colorTexture * vec4f( ambient + diffuse + specular , 1.0);
+        // Ambient
+        ambient += ka * ia;
 
-    return output;    
+        // Diffuse
+        let lightDir = normalize(lightPosition - position);
+        let lightMagnitude = dot(normal, lightDir);
+        let diff = max(lightMagnitude, 0.0);
+        diffuse += kd * id * diff;
+
+        // Specular
+        let viewDir = normalize(fsInput.viewPos.xyz - position);
+        let reflectDir = reflect(-lightDir, normal);
+        let spec = pow(max(dot(viewDir, reflectDir), 0.0), shininess);
+        specular += ks * is * spec;
+    }
+
+    // Final color
+    var output = colorTexture * vec4f(ambient + diffuse + specular, 1.0);
+
+    return output;
 }
